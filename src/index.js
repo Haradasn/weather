@@ -17,7 +17,7 @@ class WeatherPage extends Component {
         super(props)
         this.state = {placeName: null, weather: null, temperature: null, loading: false}
         this.Places = [{name: '札幌', id: 2128295},{name: '東京', id: 1850147},{name: '大阪', id: 1853909},{name: '沖縄', id: 1894616},{name: '船橋', id:2113015}]
-        this.OpenWeatherMapKey = "1740bba4a01b3e48f241bcf9d649ac83"
+        this.OpenWeatherMapKey = "APIキー"
     }
     selectPlace(index){
 
